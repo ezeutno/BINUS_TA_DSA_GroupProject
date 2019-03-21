@@ -83,6 +83,10 @@ h1{
   table tbody tr td:nth-child(4):before {
     content: "TOPIC";
   }
+
+  table tbody tr td:nth-child(5):before{
+    content: "SCORE";
+  }
 }
 body {
   background: #659DBD;
