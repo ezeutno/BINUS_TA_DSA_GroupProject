@@ -71,20 +71,22 @@ h1{
     left: 10px;
     top: 0;
   }
-  table tbody tr td:nth-child(1):before {
-    content: "NAMES";
+  table tbody tr td:nth-child(1):before{
+    content: "NO";
   }
   table tbody tr td:nth-child(2):before {
-    content: "CLASS";
+    content: "NAMES";
   }
   table tbody tr td:nth-child(3):before {
-    content: "BINUSIAN ID";
+    content: "CLASS";
   }
   table tbody tr td:nth-child(4):before {
+    content: "BINUSIAN ID";
+  }
+  table tbody tr td:nth-child(5):before {
     content: "TOPIC";
   }
-
-  table tbody tr td:nth-child(5):before{
+  table tbody tr td:nth-child(6):before{
     content: "SCORE";
   }
 }
