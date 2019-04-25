@@ -39,7 +39,11 @@ table td.c, table th.c {
 table td.r, table th.r {
   text-align: center;
 }
-h1{
+h1, h2{
+  color : white;
+}
+a{
+  text-decoration: none;
   color : white;
 }
 
